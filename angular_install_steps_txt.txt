@@ -1,0 +1,19 @@
+Installation steps:
+ ====================
+1. install node (using the stable version of exe)
+
+2. Open CMD and type the following command
+	npm install -g @angular/cli
+	sudo npm install -g @angular/cli (for mac or linux)
+3. creating a new angular application using the cli 
+	ng new firstapp
+	cd firstapp
+	ng serve (localhost:4200)
+
+4. npm install --save bootstrap@3
+	npm install bootstrap@3
+5. ng generate component mycomponent
+	ng g c mycomponent (this will also create new component same as above)
+6. To add node_module folder into your project use, npm install
+
+Tips - npm cache clean and then npm install
